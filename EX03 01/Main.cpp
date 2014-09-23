@@ -15,8 +15,6 @@ int main()
 	cin >> low;
 	try
 	{
-		/*check to ensure that number range is valid*/
-		if (low >= high) throw invalid_argument("Invalid range, renter low:");
 		/*Run read_int then out put numeric info*/
 		int number = read_int("Please enter a number within the range: ", low, high);
 		cout << "You entered " << number << endl;

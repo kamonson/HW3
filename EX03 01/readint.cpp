@@ -15,11 +15,18 @@ int read_int(const string &prompt, int low, int high){
 		try{
 			cout << prompt;
 			cin >> num;
+			/*check to ensure that number range is valid*/
+			if (low >= high) throw invalid_argument("Invalid range, renter low:");
 			/*check to ensure that the number entered is between the high and low range*/
 			if (num < low || num > high) {
 				throw out_of_range ("the number you have entered is not within the selected range, please enter a number within the specified range: \n");
 			}
 			return num;
+		}
+		/*if range is invalid display error and end program*/
+		catch (invalid_argument &e) {
+			cerr << "Exception: You supplied an invalid argument for read_int!\n";
+			break;
 		}
 		/*return error message and allow user to select new number*/
 		catch (ios_base::failure& ex){

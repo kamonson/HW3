@@ -1,14 +1,11 @@
 #include "stdafx.h"
 #include "CppUnitTest.h"
 #include "readint.h"
-#include <stdexcept>
-
-
+#include <stdexcept> // remember to include in unittest1.cpp
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
-namespace UnitTester
+namespace UnitTester1
 {		
-
 	TEST_CLASS(READINT_TEST) // Test suite for read_int()
 	{
 

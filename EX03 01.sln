@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EX03 01", "EX03 01\EX03 01.vcxproj", "{9352F8D3-E967-4D63-905A-15900DC11022}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EX03 01", "..\..\..\Documents\Visual Studio 2013\Projects\HW3\EX03 01\EX03 01\EX03 01.vcxproj", "{9352F8D3-E967-4D63-905A-15900DC11022}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTester", "UnitTester\UnitTester.vcxproj", "{F287D071-C290-480F-8377-207E190C8BC0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTester1", "UnitTester1\UnitTester1.vcxproj", "{612B2258-23D2-4D47-860E-043A78F71223}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{9352F8D3-E967-4D63-905A-15900DC11022}.Debug|Win32.Build.0 = Debug|Win32
 		{9352F8D3-E967-4D63-905A-15900DC11022}.Release|Win32.ActiveCfg = Release|Win32
 		{9352F8D3-E967-4D63-905A-15900DC11022}.Release|Win32.Build.0 = Release|Win32
-		{F287D071-C290-480F-8377-207E190C8BC0}.Debug|Win32.ActiveCfg = Debug|Win32
-		{F287D071-C290-480F-8377-207E190C8BC0}.Debug|Win32.Build.0 = Debug|Win32
-		{F287D071-C290-480F-8377-207E190C8BC0}.Release|Win32.ActiveCfg = Release|Win32
-		{F287D071-C290-480F-8377-207E190C8BC0}.Release|Win32.Build.0 = Release|Win32
+		{612B2258-23D2-4D47-860E-043A78F71223}.Debug|Win32.ActiveCfg = Debug|Win32
+		{612B2258-23D2-4D47-860E-043A78F71223}.Debug|Win32.Build.0 = Debug|Win32
+		{612B2258-23D2-4D47-860E-043A78F71223}.Release|Win32.ActiveCfg = Release|Win32
+		{612B2258-23D2-4D47-860E-043A78F71223}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
