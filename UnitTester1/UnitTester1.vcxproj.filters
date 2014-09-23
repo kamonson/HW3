@@ -31,10 +31,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="zeroinput.txt">
+    <Text Include="threeinput.txt">
       <Filter>Resource Files</Filter>
     </Text>
-    <Text Include="threeinput.txt">
+    <Text Include="zeroinput.txt">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>
