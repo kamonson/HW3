@@ -94,13 +94,13 @@
     <ClCompile Include="unittest1.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Documents\Visual Studio 2013\Projects\HW3\EX03 01\EX03 01\EX03 01.vcxproj">
-      <Project>{9352f8d3-e967-4d63-905a-15900dc11022}</Project>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Text Include="threeinput.txt" />
     <Text Include="zeroinput.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EX03 01\EX03 01.vcxproj">
+      <Project>{9352f8d3-e967-4d63-905a-15900dc11022}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
