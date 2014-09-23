@@ -98,6 +98,10 @@
       <Project>{9352f8d3-e967-4d63-905a-15900dc11022}</Project>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="threeinput.txt" />
+    <Text Include="zeroinput.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
